@@ -5,8 +5,8 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Print string
-        run: echo I've printed 1 string
+        run: echo I have printed 1 string
       - name: Print 2 string
         run: echo |
-          I've printed the first string
-          I've printed the second string
+          I have printed the first string
+          I have printed the second string
