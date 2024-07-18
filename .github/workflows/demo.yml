@@ -1,0 +1,12 @@
+name: Demo Workflow
+on: workflow_dispatch
+jobs:
+  print:
+    runs-on: macos-latest
+    steps:
+      - name: Print string
+        run: echo I've printed 1 string
+      - name: Print 2 string
+        run: echo |
+          I've printed the first string
+          I've printed the second string
