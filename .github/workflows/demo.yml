@@ -7,6 +7,6 @@ jobs:
       - name: Print string
         run: echo I have printed 1 string
       - name: Print 2 string
-        run: echo |
-          I have printed the first string
-          I have printed the second string
+        run: |
+          echo I have printed the first string
+          echo I have printed the second string
